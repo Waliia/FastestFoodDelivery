@@ -3,15 +3,15 @@ import 'package:flutter_svg/flutter_svg.dart';
 //import 'package:smooth_star_rating/smooth_star_rating.dart';
 //import 'constants.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() =>  runApp(const MyApp());
+
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    print("hello Build");
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: DetailScreen(),
